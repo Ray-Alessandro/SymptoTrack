@@ -1,0 +1,14 @@
+//Paquete de configuración de Visual Studio Code para Python, para que reconozca el entorno virtual y el directorio de trabajo.
+{
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}"
+    },
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+}
