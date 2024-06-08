@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import List
 
-from SymptomResponse import SymptomResponse
+from .SymptomResponse import SymptomResponse
 
 
 class DiseaseResponse(BaseModel):
