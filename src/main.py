@@ -20,7 +20,7 @@ thread.start()
 diagnosis_values, diagnosis_probs, symptom_probs = calculate_probabilities(dataframe)
 
 # Lista de síntomas
-evidence = symptoms_to_evidence(['fatigue'])
+evidence = symptoms_to_evidence(['itching','skin_rash','dischromic _patches'])
 
 # Inferir diagnóstico
 diagnosis_fallback_result = infer_diagnosis_with_fallback(evidence, diagnosis_values, diagnosis_probs, symptom_probs)
