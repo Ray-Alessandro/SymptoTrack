@@ -1,0 +1,110 @@
+{
+  "Hepatitis A": {
+    "descripcion": "Infección viral altamente contagiosa que afecta el hígado y causa inflamación. Se transmite principalmente a través del consumo de alimentos o agua contaminados y el contacto cercano con una persona infectada. La vacunación es la mejor manera de prevenir esta enfermedad.",
+    "imagen": "https://i0.wp.com/diariodelamanga.com/wp-content/uploads/2019/11/descarga-1.png?resize=768%2C505&ssl=1"
+  },
+  "Hepatitis B": {
+    "descripcion": "Infección hepática grave causada por el virus de la hepatitis B (VHB). Esta enfermedad puede ser aguda o crónica y se transmite a través del contacto con sangre, semen u otros fluidos corporales de una persona infectada. La vacunación es crucial para la prevención.",
+    "imagen": "https://580a5e7a.rocketcdn.me/wp-content/uploads/2024/02/Hepatitis-B-Aclimu.webp"
+  },
+  "Hepatitis C": {
+    "descripcion": "Infección viral que puede causar inflamación crónica del hígado. Se transmite principalmente a través del contacto con sangre infectada. La enfermedad puede progresar a cirrosis y cáncer de hígado si no se trata adecuadamente.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYtjnUO6-YyRlfxU5pK5OBU9zF2LNVInpmQ&s"
+  },
+  "Hepatitis D": {
+    "descripcion": "Infección hepática que solo ocurre en presencia del virus de la hepatitis B. Esta co-infección puede causar una enfermedad hepática más severa y complicaciones graves. La vacunación contra la hepatitis B previene la hepatitis D.",
+    "imagen": "https://www.cdc.gov/hepatitis-d/media/images/2024/03/hepatitis-d-thumbnail.jpg"
+  },
+  "Hepatitis E": {
+    "descripcion": "Infección viral que se transmite principalmente a través del agua contaminada. Es más común en regiones con saneamiento deficiente. La enfermedad generalmente es autolimitada, pero puede ser grave en mujeres embarazadas.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1H4RrKR0tt0vA7e2ai1H5CzzG4ExZhlqcg&s"
+  },
+  "Alcoholic hepatitis": {
+    "descripcion": "Inflamación del hígado causada por el consumo excesivo y prolongado de alcohol. Puede llevar a cicatrización y daño hepático irreversible, y en casos severos, a insuficiencia hepática. La abstinencia del alcohol es esencial para el tratamiento.",
+    "imagen": "https://th.bing.com/th?id=OCII.6999D4095DCFABFD34F8047714ABA9C4E93BAB2FFBF28A984C0AC73D2E834E8B&w=1606&p=0"
+  },
+  "Tuberculosis": {
+    "descripcion": "Enfermedad infecciosa causada por la bacteria Mycobacterium tuberculosis. Principalmente afecta los pulmones, pero también puede afectar otras partes del cuerpo. La transmisión ocurre a través del aire cuando una persona infectada tose o estornuda.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoKmzYBYGXxnx6eMHuV1KnNd2FcBjus00Gw&s"
+  },
+  "Common Cold": {
+    "descripcion": "Infección viral de las vías respiratorias superiores, comúnmente causada por rinovirus. Es altamente contagiosa y se propaga a través de gotitas en el aire y contacto directo con superficies contaminadas.",
+    "imagen": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2023-06/230607-common-cold-lr-971576.jpg"
+  },
+  "Pneumonia": {
+    "descripcion": "Infección que inflama los sacos de aire en uno o ambos pulmones, que pueden llenarse de líquido o pus. Causada por bacterias, virus u hongos, la neumonía puede variar de leve a potencialmente mortal.",
+    "imagen": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/5/shutterstock_1062330374.jpg"
+  },
+  "Dimorphic hemorrhoids (piles)": {
+    "descripcion": "Hinchazón e inflamación de las venas del recto y del ano. Pueden ser internas o externas y son causadas por esfuerzo durante las evacuaciones intestinales, embarazo, envejecimiento y otros factores.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Perianal_thrombosis_01.jpg/220px-Perianal_thrombosis_01.jpg"
+  },
+  "Heart attack": {
+    "descripcion": "Ocurre cuando el flujo de sangre al corazón se bloquea, generalmente por la acumulación de grasa, colesterol y otras sustancias que forman una placa en las arterias coronarias. El bloqueo puede dañar o destruir parte del músculo cardíaco.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBFsfn8CZ_sJtePKBiY_ac_0TYp9zFKCmoBw&s"
+  },
+  "Varicose veins": {
+    "descripcion": "Venas hinchadas y retorcidas que se ven justo debajo de la superficie de la piel. Son más comunes en las piernas y pueden causar dolor, hinchazón y sensación de pesadez.",
+    "imagen": "https://www.verywellhealth.com/thmb/tkkkxpuS_wzeKjsaPIEf2SdMtIk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/elderly-woman-shows-varicose-1145186766-cfb.jpg"
+  },
+  "Acne": {
+    "descripcion": "Trastorno de la piel que ocurre cuando los folículos pilosos se obstruyen con aceite y células muertas de la piel. Puede causar puntos negros, espinillas o quistes, y afecta principalmente a adolescentes, pero también puede persistir en la edad adulta.",
+    "imagen": "https://i2.wp.com/bonitodesign.com/wp-content/uploads/2021/02/lo-mejor-para-el-acne.jpg?resize=768%2C461&ssl=1"
+  },
+  "AIDS": {
+    "descripcion": "Síndrome de inmunodeficiencia adquirida, una enfermedad causada por el virus de la inmunodeficiencia humana (VIH). Ataca el sistema inmunológico, debilitándolo y dejando al cuerpo vulnerable a muchas infecciones y enfermedades. No tiene cura, pero el tratamiento puede controlar la enfermedad.",
+    "imagen": "https://static01.nyt.com/images/2023/06/20/science/00TB-AIDS1/merlin_164803063_1f3c474e-22e1-4c7f-9c7c-e3878d02796f-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+  },
+  "Dengue fever": {
+    "descripcion": "Enfermedad viral transmitida por mosquitos infectados. Causa fiebre alta, dolor de cabeza intenso, dolor muscular y articular, erupciones cutáneas y sangrado. En casos graves, puede provocar hemorragias graves y ser potencialmente mortal.",
+    "imagen": "https://images.medicinenet.com/images/article/main_image/2296-1299.jpg"
+  },
+  "Diabetes": {
+    "descripcion": "Enfermedad crónica que afecta la forma en que el cuerpo maneja el azúcar en la sangre. Puede causar complicaciones graves, como enfermedades cardíacas, accidentes cerebrovasculares, ceguera, insuficiencia renal y amputaciones. La diabetes tipo 2 es prevenible en gran medida con cambios en el estilo de vida.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2xy93vq3gH7pucVnMqZI9iy1Pvc1ZyNJ8g&s"
+  },
+  "Gastroenteritis": {
+    "descripcion": "Inflamación del estómago y los intestinos que causa diarrea, vómitos y calambres abdominales. Es causada por infecciones virales, bacterianas o parasitarias, y es comúnmente conocida como gripe estomacal. La gastroenteritis puede llevar a la deshidratación, especialmente en niños y ancianos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzx1tt29gFgopvdMRIdWh1SHpPRB4cU9oBMA&s"
+  },
+  "Bronchial Asthma": {
+    "descripcion": "Enfermedad crónica que inflama y estrecha las vías respiratorias, causando episodios recurrentes de sibilancias, falta de aliento, opresión en el pecho y tos. Los desencadenantes del asma pueden incluir alérgenos, infecciones respiratorias, ejercicio y estrés.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHuqQ76SUzhoSI9dZrMccszVhR4z2cGFK5JQ&s"
+  },
+  "Hypertension": {
+    "descripcion": "Condición crónica en la que la presión arterial es consistentemente más alta de lo normal. La hipertensión aumenta el riesgo de enfermedades cardíacas, accidentes cerebrovasculares y otros problemas graves de salud. Se conoce como el asesino silencioso porque a menudo no presenta síntomas evidentes.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCxu6Cw6n3T7bQTEL3fTn23drLJsvzQp7jJA&s"
+  },
+  "Migraine": {
+    "descripcion": "Trastorno neurológico que causa dolores de cabeza intensos y otros síntomas como náuseas, vómitos y sensibilidad a la luz y el sonido. Las migrañas pueden durar de horas a días y pueden ser debilitantes. Las causas exactas no se conocen, pero los factores desencadenantes pueden incluir cambios hormonales, alimentos, estrés y patrones de sueño irregulares.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCrzSjz9BhRWSgYJO3jiMC_RkipFEyUV6Bg&s"
+  },
+  "Cervical spondylosis": {
+    "descripcion": "Desgaste de los huesos y cartílagos en el cuello (columna cervical) debido al envejecimiento. Esto puede causar dolor de cuello, rigidez y, en algunos casos, compresión de las raíces nerviosas. La espondilosis cervical es común en personas mayores y es una causa frecuente de dolor crónico en el cuello.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NBry046E5FvD5P68Wn_DeXHI1yNc_wfTNw&s"
+  },
+  "Paralysis (brain hemorrhage)": {
+    "descripcion": "Pérdida de función muscular en parte del cuerpo debido a una hemorragia cerebral. Una hemorragia cerebral ocurre cuando un vaso sanguíneo en el cerebro se rompe y sangra, dañando las células cerebrales y causando parálisis en la parte del cuerpo controlada por el área afectada del cerebro.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsb5166Nu6cfAkWJl1WF4iNt0jDUtJioYUOA&s"
+  },
+  "Jaundice": {
+    "descripcion": "Condición que causa coloración amarillenta de la piel y los ojos debido a un exceso de bilirrubina en la sangre. La ictericia puede ser un signo de problemas hepáticos, obstrucción del conducto biliar, anemia hemolítica u otras afecciones médicas.",
+    "imagen": "https://www.health.com/thmb/OqJFVKQKXTs9EHE8vuvtxr1XKVc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/health-GettyImages-1297312951-f23a8ab26cce48d784c5b5675eb5d57f.jpg"
+  },
+  "Malaria": {
+    "descripcion": "Enfermedad infecciosa transmitida por mosquitos Anopheles infectados que causa fiebre alta, escalofríos, sudoración y otros síntomas. La malaria es causada por parásitos Plasmodium y es prevalente en regiones tropicales y subtropicales.",
+    "imagen": "https://dk4fkkwa4o9l0.cloudfront.net/production/uploads/article/image/2017/Buat_Cover_Web.jpg"
+  },
+  "Chicken pox": {
+    "descripcion": "Enfermedad viral altamente contagiosa que causa una erupción cutánea con ampollas. Es causada por el virus varicela-zóster y es común en niños. La enfermedad suele ser leve, pero puede ser grave en adultos y personas con sistemas inmunitarios debilitados.",
+    "imagen": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/chickenpox"
+  },
+  "Dengue": {
+    "descripcion": "Enfermedad viral transmitida por mosquitos Aedes infectados que causa fiebre alta, erupciones y dolor muscular y articular intenso. El dengue es prevalente en regiones tropicales y subtropicales y puede causar complicaciones graves como el dengue grave o hemorrágico.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFWdTHiB2th6gN1aJsR9Q0vSdo1Xs011w5cw&s"
+  },
+  "Typhoid": {
+    "descripcion": "Enfermedad bacteriana causada por Salmonella typhi, transmitida por alimentos y agua contaminados. Los síntomas incluyen fiebre alta, dolor abdominal, debilidad y erupciones. La fiebre tifoidea puede ser mortal si no se trata adecuadamente con antibióticos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVf-0t7muXbiyr0wO2EaxYB8KYR2Pc0pAM8vzFdxeboPO-KoE2H3LuQyE9j8suQDeptb8&usqp=CAU"
+  }
+}

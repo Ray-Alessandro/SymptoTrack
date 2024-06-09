@@ -1,0 +1,198 @@
+{
+  "itching": {
+    "descripcion": "Sensación incómoda en la piel que provoca el deseo de rascarse.",
+    "imagen": "https://assets.clevelandclinic.org/transform/3a8b023b-b29a-4e3e-9bb7-46bfd4d60382/itchingSkin-1199684950-770x533-1_jpg"
+  },
+  "skin_rash": {
+    "descripcion": "Área de piel enrojecida e inflamada, a menudo acompañada de picazón.",
+    "imagen": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/03/Contact-dermatitis-of-the-arm-body19.jpg?w=1155&h=1528"
+  },
+  "nodal_skin_eruptions": {
+    "descripcion": "Aparición de nódulos o protuberancias en la piel.",
+    "imagen": "https://www.researchgate.net/publication/359413819/figure/fig1/AS:1139363568205826@1648656851379/Facial-eruption-of-erythematous-acneiform-lesions.png"
+  },
+  "continuous_sneezing": {
+    "descripcion": "Acto de estornudar repetidamente sin parar.",
+    "imagen": "https://cdn-prod.medicalnewstoday.com/content/images/articles/321/321305/man-about-to-sneeze.jpg"
+  },
+  "shivering": {
+    "descripcion": "Temblor incontrolable del cuerpo debido al frío o fiebre.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Y4Fwa-fbyG5gz5aFfDw2rhc-DcAl_cL1Rg&s"
+  },
+  "chills": {
+    "descripcion": "Sensación de frío a menudo acompañada de temblores.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncj123sEcw7QsF9bEfm5_A5_2ewsZ1Y9CKg&s"
+  },
+  "joint_pain": {
+    "descripcion": "Dolor en las articulaciones del cuerpo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCVmXeIhgenHPHcLG0MNKp0CspC38vURcCQ&s"
+  },
+  "stomach_pain": {
+    "descripcion": "Dolor localizado en la zona abdominal.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrG_XCDwAZipKj70_wsf83txUjIBIy_soXBQ&s"
+  },
+  "acidity": {
+    "descripcion": "Sensación de ardor en el estómago o el pecho debido al exceso de ácido.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZ1-gVdNxCyCxJagjL86K9kpiu4xfDJ8ViA&s"
+  },
+  "ulcers_on_tongue": {
+    "descripcion": "Pequeñas llagas dolorosas en la lengua.",
+    "imagen": "https://www.shutterstock.com/image-photo/tongue-ulcers-adult-man-260nw-1078390793.jpg"
+  },
+  "muscle_wasting": {
+    "descripcion": "Pérdida de masa y fuerza muscular.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyJN8BWPLOy0CUqnyA9ruSU3iF2g68a7JGg&s"
+  },
+  "vomiting": {
+    "descripcion": "Expulsión forzada del contenido del estómago por la boca.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Symptoms-vomiting.jpg/220px-Symptoms-vomiting.jpg"
+  },
+  "burning_micturition": {
+    "descripcion": "Sensación de ardor al orinar.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsO9OxtN50-e6B5JD7rqxzy5zteTDe8LFQw&s"
+  },
+  "spotting_urination": {
+    "descripcion": "Pequeñas cantidades de orina que se expulsan de manera intermitente.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4BhtI-6uzQ1nfKH-AAcqdlkWPBsKLPb6X3g&s"
+  },
+  "fatigue": {
+    "descripcion": "Sensación extrema de cansancio o agotamiento.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs0oQJ3LjDl_aty7JLhI_CfvKnkD-FY3kIhQ&s"
+  },
+  "weight_gain": {
+    "descripcion": "Incremento en el peso corporal.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuL1XOvcjXVnB5KtlpPH-wZOUcvYLNLysaNw&s"
+  },
+  "anxiety": {
+    "descripcion": "Sentimientos intensos de preocupación, miedo o nerviosismo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03diODOmO4GC7xvs9-uyr321kGIm0KFsb4w&s"
+  },
+  "cold_hands_and_feets": {
+    "descripcion": "Sensación de frío en las extremidades.",
+    "imagen": "https://media.istockphoto.com/id/1214505566/vector/cold-hand-and-foot-blood-circulation-illustration.jpg?s=612x612&w=0&k=20&c=BEy7lC4bTRcJItYt4zcgtXjeM8gmYYCwYU1N9zJ9M1U="
+  },
+  "mood_swings": {
+    "descripcion": "Alteraciones rápidas e impredecibles en el estado de ánimo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-odhXOIlg3n1FcODAm1yKS5IdlfkmtJnFPA&s"
+  },
+  "weight_loss": {
+    "descripcion": "Reducción del peso corporal.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd_LWBaXqQazkQNEKi6CUNLpsfq3bGCatteA&s"
+  },
+  "restlessness": {
+    "descripcion": "Incapacidad para quedarse quieto o relajarse.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_EfCdT14pABDo59vzzKcKVczonI-PXxlxdA&s"
+  },
+  "lethargy": {
+    "descripcion": "Sensación de pereza o falta de energía.",
+    "imagen": "https://www.health.com/thmb/pZLh_6V2uYKJPna9fRZ6ksYLe6M=/2082x0/filters:no_upscale():max_bytes(150000):strip_icc()/LethargyGettyImages-163844925-36c10474127840d79bfba075ac0d4fe7.jpg"
+  },
+  "patches_in_throat": {
+    "descripcion": "Áreas de decoloración o lesiones en la garganta.",
+    "imagen": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/10/strep-throat-1296x728-slide2.jpg"
+  },
+  "irregular_sugar_level": {
+    "descripcion": "Fluctuaciones anormales en los niveles de glucosa en sangre.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb5vPa3Ya3QWhfVRoNhAfsrtBPzBzkNXFWg&s"
+  },
+  "cough": {
+    "descripcion": "Expulsión repentina y repetida de aire desde los pulmones.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA7BzWDQPvr_SCA8zWaR8wiguiWTI8INvgAg&s"
+  },
+  "high_fever": {
+    "descripcion": "Elevación significativa de la temperatura corporal.",
+    "imagen": "https://assets.clevelandclinic.org/transform/6323bdcd-dcee-4a1d-b3ba-9200715d94c5/bodyHappenFever-1006577818-770x553_jpg"
+  },
+  "sunken_eyes": {
+    "descripcion": "Apariencia de ojos hundidos, a menudo por deshidratación.",
+    "imagen": "https://www.verywellhealth.com/thmb/qPdBm9M2HTos6BYT13wC9SPBN9I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-527033884-10b05026e736424a9b8014422f6c6e12.jpg"
+  },
+  "breathlessness": {
+    "descripcion": "Sensación de falta de aire o dificultad para respirar.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIntUsbiz6HbD8gl3UBV7hISJR28YIhw8fOA&s"
+  },
+  "sweating": {
+    "descripcion": "Producción de sudor, generalmente como respuesta al calor o al ejercicio.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgr_8PSBHJdxAEN7ZoDeV3x1al7y0DyPChA&s"
+  },
+  "dehydration": {
+    "descripcion": "Pérdida excesiva de líquidos del cuerpo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyywGw4kgQ8EWKr3hUzCZRby20H_M7PUfyxg&s"
+  },
+  "indigestion": {
+    "descripcion": "Malestar estomacal después de comer, asociado con dificultad para digerir.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDbKjLZ3yb9LJM2xsj2qSnXY3gYtXuqfOSYw&s"
+  },
+  "headache": {
+    "descripcion": "Dolor o malestar en la cabeza o el cuello superior.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe9zVPDMwokaI2CLY5HqpasT5-iAPBRw6axg&s"
+  },
+  "yellowish_skin": {
+    "descripcion": "Color amarillento de la piel, a menudo relacionado con ictericia.",
+    "imagen": "https://assets.nhs.uk/nhsuk-cms/images/S_1117_jaundice-hand_C0016614.max-600x600.jpg"
+  },
+  "dark_urine": {
+    "descripcion": "Orina de color oscuro, a menudo indicativa de deshidratación o problemas hepáticos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlQRFy4Yu4BloONrwO4k7SUC4Cxwjy1Kb-A&s"
+  },
+  "nausea": {
+    "descripcion": "Sensación de malestar en el estómago con el deseo de vomitar.",
+    "imagen": "https://w7.pngwing.com/pngs/197/710/png-transparent-nausea-cartoon-people-patient-thumbnail.png"
+  },
+  "loss_of_appetite": {
+    "descripcion": "Disminución del deseo de comer.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcUJUZG8ChvOhUESokV2XTLfd8-CGTvmVb5A&s"
+  },
+  "pain_behind_the_eyes": {
+    "descripcion": "Dolor o presión en la zona ocular.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb9UPcTRdpw3y0Lnr7TdACcpITqSKtZ7bTpQ&s"
+  },
+  "back_pain": {
+    "descripcion": "Dolor en la zona posterior del torso.",
+    "imagen": "https://www.centracare.com/images/blog/GettyImages-143174625-backpain.jpg"
+  },
+  "constipation": {
+    "descripcion": "Dificultad para evacuar las heces.",
+    "imagen": "https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/constipation/woman-stomache-diagram-hero.jpg?h=500&iar=0&mh=500&mw=1300&w=1297&hash=2365EF022582A66F3310D16DA99F5EAA"
+  },
+  "abdominal_pain": {
+    "descripcion": "Dolor en cualquier área del abdomen.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzg-FQgUNHuUp0bsP6I4xcO-e0o5eyl8lX0A&s"
+  },
+  "diarrhoea": {
+    "descripcion": "Heces líquidas y frecuentes.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RFLee_NT8sJ6gWgumwNcXLZJXkKp7KsTCA&s"
+  },
+  "mild_fever": {
+    "descripcion": "Elevación moderada de la temperatura corporal.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUPDipaFbYzAp8GQtkvqqHEOWheQ3IJBE5uA&s"
+  },
+  "yellow_urine": {
+    "descripcion": "Orina de color amarillo, generalmente normal a menos que sea muy intensa.",
+    "imagen": "https://askthescientists.com/wp-content/uploads/2015/12/Yellow-urine-AdobeStock_208630842-835x557.jpeg"
+  },
+  "yellowing_of_eyes": {
+    "descripcion": "Coloración amarilla de la parte blanca de los ojos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOmFsOL-Jr5Hx4n59Ib3YLr0SXgbEBWzvo1w&s"
+  },
+  "acute_liver_failure": {
+    "descripcion": "Pérdida rápida de la función hepática.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPMW7Ay1VNpDk4UcEB4mT6aCuOEsb7i182Q&s"
+  },
+  "fluid_overload": {
+    "descripcion": "Acumulación excesiva de líquido en el cuerpo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUBSZII3dtY0F0LbbE51A4jKJGeIX5NcMbjA&s"
+  },
+  "swelling_of_stomach": {
+    "descripcion": "Abdomen hinchado, a menudo por acumulación de líquidos o gases.",
+    "imagen": "https://www.belmarrahealth.com/wp-content/uploads/2017/11/what-causes-abdominal-swelling.jpg"
+  },
+  "swelled_lymph_nodes": {
+    "descripcion": "Inflamación de los ganglios linfáticos.",
+    "imagen": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2023/01/Cervical_lymphadenopathy_right_neck_1296x728_slide-1024x575.jpg"
+  },
+  "malaise": {
+    "descripcion": "Sensación general de incomodidad o indisposición.",
+    "imagen": "https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327062/a-woman-lying-in-bed-and-feeling-unwell-because-of-malaise.jpg"
+  }
+}
