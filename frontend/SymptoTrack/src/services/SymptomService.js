@@ -14,19 +14,16 @@ export function SymptomService() {
         return response.json();
       })
       .then(data => {
-        console.log('Data is OK:', data);
-        setData(data);  // Aquí asumes que `data` es un array de objetos con la propiedad `name`
+        setData(data);
       })
       .catch(error => {
         console.error('Error fetching symptoms:', error);
-        setData([]);  // Manejo de errores, por ejemplo, establecer data como un array vacío
+        setData([]);
       })
       .finally(() => {
         setLoading(false);
       });
   }, []);
-
-  console.log('Data:', data);
 
   return { data, loading };
 }

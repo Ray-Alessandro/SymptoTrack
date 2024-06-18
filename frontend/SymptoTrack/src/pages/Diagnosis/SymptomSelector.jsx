@@ -4,7 +4,7 @@ import InputLabel from '@mui/material/InputLabel';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 
-const SymptomSelector = ({ options, i }) => {
+const SymptomSelector = ({ options, i, onSelect }) => {
 
     const ITEM_HEIGHT = 48;
     const ITEM_PADDING_TOP = 8;
@@ -22,6 +22,7 @@ const SymptomSelector = ({ options, i }) => {
 
   const handleChange = (event) => {
     setSelectedOption(event.target.value);
+    onSelect(event.target.value);
   };  
 
   return (

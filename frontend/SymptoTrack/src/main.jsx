@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import "./index.css"; // Importa estilos globales si los tienes
+import "./index.css";
 import '@fortawesome/fontawesome-free/css/all.css';
 import { App } from "./App";
 
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <React.StrictMode>
       <App />

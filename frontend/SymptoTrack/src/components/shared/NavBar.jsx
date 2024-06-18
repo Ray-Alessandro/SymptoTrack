@@ -12,10 +12,10 @@ const NavBar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" activeClassName="desactive" exact to="/">Home</NavLink>
+              <NavLink className="nav-link" activeclassname="active" to="/" exact="true">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" activeClassName="desactive" to="/diagnosis">Diagnosis</NavLink>
+              <NavLink className="nav-link" activeclassname="active" to="/diagnosis">Diagnosis</NavLink>
             </li>
           </ul>
         </div>
