@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export function SymptomService() {
+const SymptomService = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -27,3 +27,5 @@ export function SymptomService() {
 
   return { data, loading };
 }
+
+export default SymptomService;

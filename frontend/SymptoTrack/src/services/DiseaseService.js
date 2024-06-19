@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
 
-const getSymptoms = (symptoms) => ({
-  symptoms: symptoms.map(symptom => ({ name: symptom }))
-});
+const getSymptoms = (symptoms) => {
+  console.log(symptoms);
+  return {
+    symptoms: symptoms.map(symptom => ({ name: symptom }))
+  };
+};
 
 const DiseaseService = (symptoms) => {
   const [data, setData] = useState([]);
@@ -24,6 +27,7 @@ const DiseaseService = (symptoms) => {
           throw new Error('Network response was not ok.');
         }
         const result = await response.json();
+        console.log(result);
         setData(result);
       } catch (error) {
         console.error('Error fetching diseases:', error);
