@@ -1,5 +1,27 @@
-body {
-    margin: 0;
-    background: #222;
-    font-family: system-ui;
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Optional: Styles for Footer to ensure it looks nice */
+.Footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
 }

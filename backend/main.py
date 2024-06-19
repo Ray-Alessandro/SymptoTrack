@@ -1,6 +1,7 @@
 #Importar FastAPI
 from fastapi import FastAPI
 from backend.config.settings import settings
+from fastapi.middleware.cors import CORSMiddleware
 
 #Importamos las rutas de la API
 from backend.controllers.DiseaseController import router as DiseaseController
@@ -12,6 +13,22 @@ app = FastAPI(
     description=settings.app_description,
     version=settings.app_version
     
+)
+
+#Añadir los origenes permitidos para CORS
+origins = [
+    "http://localhost",
+    "http://localhost:5173",
+]
+
+
+#Añadir los origenes permitidos para CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 #Añadir las rutas de la API
