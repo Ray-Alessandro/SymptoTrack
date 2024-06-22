@@ -7,18 +7,31 @@ import DiseaseCard from "./DiseaseCard";
 
 import LoadingButton from "@mui/lab/LoadingButton";
 import CircularProgress from "@mui/material/CircularProgress";
+import { Alert, AlertTitle } from "@mui/material";
 
 const Diagnosis = () => {
   const { data: symptomData, loading: symptomLoading } = SymptomService();
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
   const [sendSymptoms, setSendSymptoms] = useState([]);
+  const [showErrorAlert, setShowErrorAlert] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const { data: dataDisease, loading: loadingDisease } =
     DiseaseService(sendSymptoms);
 
   const handleDiagnose = () => {
+    handleCloseAlert();
+
     if (selectedSymptoms.length === 0) {
-      alert("Please select at least one symptom");
+      setErrorMessage(
+        "You did not select any symptoms. Please select at least one symptom."
+      );
+      setShowErrorAlert(true);
+    }
+    //Si selecciona sintomas iguales
+    if (new Set(selectedSymptoms).size !== selectedSymptoms.length) {
+      setErrorMessage("Please select different symptoms.");
+      setShowErrorAlert(true);
       return;
     }
 
@@ -40,6 +53,11 @@ const Diagnosis = () => {
 
       return updatedSymptoms;
     });
+  };
+
+  // Función para cerrar la alerta de éxito
+  const handleCloseAlert = () => {
+    setShowErrorAlert(false);
   };
 
   return (
@@ -70,6 +88,14 @@ const Diagnosis = () => {
                     />
                   ))}
 
+
+                  {showErrorAlert && (
+                    <Alert severity="error" onClose={handleCloseAlert} sx={{ mb: -3, mt: 2}} >
+                      <AlertTitle>Error</AlertTitle>
+                      {errorMessage}
+                    </Alert>
+                  )}
+
                   <div className="d-grid col-10 mx-auto mt-3">
                     <LoadingButton
                       fullWidth
@@ -97,7 +123,7 @@ const Diagnosis = () => {
         </div>
       </div>
 
-      {(symptomLoading || loadingDisease) && (
+      {loadingDisease && (
         <div className="d-flex justify-content-center mt-5 mb-5">
           <CircularProgress />
         </div>
@@ -110,43 +136,22 @@ const Diagnosis = () => {
               <div className="card">
                 <div className="card-body">
                   <h1 className="card-title text-center mt-3 mb-5">
-                   <u> Diagnostic results </u>
+                    <u> Diagnostic results </u>
                   </h1>
                   <div className="row pt-2">
-                    {dataDisease.length === 1 && (
-                      <div className="d-flex justify-content-center mb-4">
-                        <DiseaseCard {...dataDisease[0]} />
+                    {dataDisease.map((disease, index) => (
+                      <div
+                        className={`col-md-6 mb-5 d-flex justify-content-center ${
+                          index === dataDisease.length - 1 &&
+                          dataDisease.length % 2 !== 0
+                            ? "offset-md-3"
+                            : ""
+                        }`}
+                        key={index}
+                      >
+                        <DiseaseCard {...disease} />
                       </div>
-                    )}
-                    {dataDisease.length === 2 && (
-                      <>
-                        <div className="col-md-6 mb-4 d-flex justify-content-center">
-                          <DiseaseCard {...dataDisease[0]} />
-                        </div>
-                        <div className="col-md-6 mb-4 d-flex justify-content-center">
-                          <DiseaseCard {...dataDisease[1]} />
-                        </div>
-                      </>
-                    )}
-                    {dataDisease.length === 3 && (
-                      <>
-                        <div className="col-md-6 mb-4 d-flex justify-content-center">
-                          <DiseaseCard {...dataDisease[0]} />
-                        </div>
-                        <div className="col-md-6 mb-4 d-flex justify-content-center">
-                          <DiseaseCard {...dataDisease[1]} />
-                        </div>
-                        <div className="d-flex justify-content-center bg-danger mb-4">
-                          <DiseaseCard {...dataDisease[2]} />
-                        </div>
-                      </>
-                    )}
-                    {dataDisease.length > 3 &&
-                      dataDisease.map((disease, index) => (
-                        <div className="col-md-6 mb-5 d-flex justify-content-center" key={index}>
-                          <DiseaseCard {...disease} />
-                        </div>
-                      ))}
+                    ))}
                   </div>
                 </div>
               </div>
@@ -154,7 +159,6 @@ const Diagnosis = () => {
           </div>
         </div>
       )}
-
     </>
   );
 };
