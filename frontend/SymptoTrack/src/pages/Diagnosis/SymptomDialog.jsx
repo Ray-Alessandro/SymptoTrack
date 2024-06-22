@@ -4,43 +4,37 @@ import SymptomCard from "./SymptomCard";
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Button from '@mui/material/Button';
 
-const SymptomDialog = ({ symptoms }) => {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
+const SymptomDialog = ({ open, handleClose, symptoms }) => {
   return (
-    <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        Open Symptom Dialog
-      </Button>
-      <Dialog
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="symptom-dialog-title"
-        aria-describedby="symptom-dialog-description"
-      >
-        <DialogTitle id="symptom-dialog-title">Symptoms</DialogTitle>
-        <DialogContent>
+    <Dialog
+      open={open}
+      onClose={handleClose}
+      maxWidth= "md"
+      aria-labelledby="symptom-dialog-title"
+      aria-describedby="symptom-dialog-description"
+    >
+      <DialogTitle id="symptom-dialog-title">
+        <h3 className="text-center">List of Symptoms</h3>
+        </DialogTitle>
+      <DialogContent>
+        <div className="row pt-2">
           {symptoms.map((symptom, index) => (
-            <SymptomCard key={index} {...symptom} />
+            <div
+              key={index}
+              className={`col-md-6 mb-5 d-flex justify-content-center ${index === symptoms.length - 1 && symptoms.length % 2 !== 0 ? "offset-md-3" : ""}`}
+            >
+              <SymptomCard {...symptom} />
+            </div>
           ))}
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Close</Button>
-        </DialogActions>
-      </Dialog>
-    </div>
+        </div>
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={handleClose}>Close</Button>
+      </DialogActions>
+    </Dialog>
   );
 };
 

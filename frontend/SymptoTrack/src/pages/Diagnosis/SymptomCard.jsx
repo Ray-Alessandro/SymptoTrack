@@ -13,12 +13,12 @@ const SymptomCard = (symptom) => {
 
     return (
 
-        <Card sx={{ maxWidth: 360, display: 'flex', flexDirection: 'column' }}>
-            <CardContent sx={{ backgroundColor: "#ffc7c700", flexGrow: 1 }}>
+        <Card sx={{ width: 360, display: 'flex', flexDirection: 'column' }}>
+            <CardContent sx={{ backgroundColor: "#e2e8f445", flexGrow: 1 }}>
                 <CardContent>
                 <CardMedia
                     component="img"
-                    sx={{ width: '100%', height: 'auto', maxHeight: '140px', objectFit: 'cover' }}
+                    sx={{ width: '100%', height: '140px', objectFit: 'cover' }}
                     image={data.image}
                     alt={data.name}
                 />
