@@ -11,11 +11,21 @@ def calculate_probabilities(dataframe):
 
     # Calcular las probabilidades condicionales para cada síntoma dado el diagnóstico
     symptom_probs = {}
+    diagnosis_indices = {diag: np.where(data[:, -1] == diag)[0] for diag in diagnosis_values}
+    
     for symptom in dataframe.columns[:-1]:  # Excluyendo "prognosis"
+        symptom_idx = dataframe.columns.get_loc(symptom)
         symptom_given_diagnosis = np.zeros((2, len(diagnosis_values)))
+        
         for j, diag in enumerate(diagnosis_values):
-            symptom_given_diagnosis[0, j] = np.sum((data[:, dataframe.columns.get_loc(symptom)] == 0) & (data[:, -1] == diag)) / np.sum(data[:, -1] == diag)
-            symptom_given_diagnosis[1, j] = np.sum((data[:, dataframe.columns.get_loc(symptom)] == 1) & (data[:, -1] == diag)) / np.sum(data[:, -1] == diag)
+            diag_indices = diagnosis_indices[diag]
+            symptom_values = data[diag_indices, symptom_idx]
+            
+            # Probabilidad de no tener el síntoma (valor 0)
+            symptom_given_diagnosis[0, j] = np.mean(symptom_values == 0)
+            # Probabilidad de tener el síntoma (valor 1)
+            symptom_given_diagnosis[1, j] = np.mean(symptom_values == 1)
+        
         symptom_probs[symptom] = symptom_given_diagnosis
 
     return diagnosis_values, diagnosis_probs, symptom_probs
@@ -64,12 +74,47 @@ def top_diagnoses(evidence, diagnosis_values, diagnosis_probs, symptom_probs, to
 # Función para hacer inferencias con reducción gradual de síntomas
 def infer_diagnosis_with_fallback(evidence, diagnosis_values, diagnosis_probs, symptom_probs, min_symptoms=1, top_n=4):
     evidence_items = list(evidence.items())
+    
+    if len(evidence_items) == 1 :
+        return top_diagnoses(evidence, diagnosis_values, diagnosis_probs, symptom_probs, top_n)
+    
+    
     for num_symptoms in range(len(evidence_items), min_symptoms - 1, -1):
         partial_evidence = dict(evidence_items[:num_symptoms])
         top_diagnoses_result = top_diagnoses(partial_evidence, diagnosis_values, diagnosis_probs, symptom_probs, top_n)
         if top_diagnoses_result:
-            return top_diagnoses_result
-    return "No se encontraron diagnósticos probables."
+            # Si llegamos al mínimo de síntomas, devolver solo un diagnóstico por síntoma relevante
+            if num_symptoms == 1:
+                diagnoses = []
+                for symptom in evidence_items:
+                    symptom_evidence = symptoms_to_evidence([symptom[0]])
+                    diagnose_by_symptom = top_diagnoses(symptom_evidence, diagnosis_values, diagnosis_probs, symptom_probs, 1)
+                    diagnose_chosen = diagnose_by_symptom[0] if diagnose_by_symptom else []          
+                 
+                    # Modificar el porcentaje del diagnóstico elegido
+                    percentage = 1.0 / len(evidence_items)
+                    new_diagnose = (diagnose_chosen[0], percentage)
+                    
+                    # Agregar el diagnóstico modificado a la lista de diagnósticos
+                    diagnoses.append(new_diagnose)
+                
+                # Sumar las probabilidades de diagnósticos iguales
+                final_diagnoses = {}
+                for diagnose in diagnoses:
+                    if diagnose[0] in final_diagnoses:
+                        final_diagnoses[diagnose[0]] += diagnose[1]
+                    else:
+                        final_diagnoses[diagnose[0]] = diagnose[1]
+                    #Si existen 2 diagnósticos iguales, se suman sus probabilidades
+                    
+                # Convertir el diccionario de diagnósticos finales en una lista de tuplas
+                final_diagnoses_list = [(key, value) for key, value in final_diagnoses.items()]
+                
+                return final_diagnoses_list
+            
+            else:
+                return top_diagnoses_result
+    return []
 
 # Función para convertir una lista de síntomas en un diccionario de evidencia
 def symptoms_to_evidence(symptoms):

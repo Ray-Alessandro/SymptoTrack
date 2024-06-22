@@ -51,7 +51,7 @@
     "descripcion": "Sensación de ardor al orinar.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsO9OxtN50-e6B5JD7rqxzy5zteTDe8LFQw&s"
   },
-  "spotting_urination": {
+  "spotting_ urination": {
     "descripcion": "Pequeñas cantidades de orina que se expulsan de manera intermitente.",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4BhtI-6uzQ1nfKH-AAcqdlkWPBsKLPb6X3g&s"
   },
@@ -169,7 +169,7 @@
   },
   "yellow_urine": {
     "descripcion": "Orina de color amarillo, generalmente normal a menos que sea muy intensa.",
-    "imagen": "https://askthescientists.com/wp-content/uploads/2015/12/Yellow-urine-AdobeStock_208630842-835x557.jpeg"
+    "imagen": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/313779_2200-732x549.jpg"
   },
   "yellowing_of_eyes": {
     "descripcion": "Coloración amarilla de la parte blanca de los ojos.",
@@ -407,9 +407,9 @@
     "descripcion": "Menstruación anormal, incluye irregularidades en el ciclo menstrual como períodos muy intensos, prolongados, dolorosos, o la ausencia de menstruación. Puede ser causado por desequilibrios hormonales, estrés, o problemas de salud reproductiva.",
     "imagen": "https://warsan.com.pk/wp-content/uploads/2024/05/types-of-abnormal-menstruation-7.webp"
   },
-  "dischromic_patches": {
+  "dischromic _patches": {
     "descripcion": "Manchas discrómicas, áreas de la piel con cambios en la pigmentación que pueden ser más claras o más oscuras que la piel circundante. Pueden ser causadas por infecciones, enfermedades autoinmunes, o exposiciones a sustancias químicas.",
-    "imagen": "https://metrodermatology.net/wp-content/uploads/2019/06/shutterstock_733122076.jpg"
+    "imagen": "https://manualofmedicine.com/wp-content/uploads/2023/09/dyschromic-patches-plaques-and-poikiloderma-on-upper-back-excerpt.jpg"
   },
   "watering_from_eyes": {
     "descripcion": "Lagrimeo, una producción excesiva de lágrimas que puede ser causada por irritaciones, alergias, infecciones o condiciones del ojo seco.",
@@ -445,27 +445,27 @@
   },
   "receiving_blood_transfusion": {
     "descripcion": "Recepción de una transfusión de sangre, que puede estar asociada con riesgos de infecciones o reacciones transfusionales.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ZDys_pXk2z4aaA1UIc8uDHcv-3EL1sgDFA&s"
+    "imagen": "https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327513/close-up-of-an-arm-having-a-blood-transfusion.jpg"
   },
   "receiving_unsterile_injections": {
     "descripcion": "Inyecciones administradas con equipo no estéril, que pueden aumentar el riesgo de infecciones y transmisión de enfermedades.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6b-7tZrdgFXkbbe2ajebKZdlqPoqHo83HEQ&s"
+    "imagen": "https://dialogo.upr.edu/wp-content/uploads/2015/07/vacunacio%CC%81n.jpg"
   },
   "coma": {
     "descripcion": "Estado de inconsciencia prolongada, donde una persona no puede ser despertada y no responde a estímulos, indicando daño cerebral grave o trastornos metabólicos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBlp-fu8HGTNqU0wE6XtOQbHeJm6zBhz2eXg&s"
+    "imagen": "https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2020/10/que_ocurre_en_el_cuerpo_cuando_se_esta_en_coma_y_pasan_los_anos_1.jpg"
   },
   "stomach_bleeding": {
     "descripcion": "Hemorragia en el estómago, que puede manifestarse como sangre en el vómito o heces negras y alquitranadas, a menudo causado por úlceras o lesiones gástricas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7b_x3TFe5HbFdpjgtMyu11WmSR3jxy8iWQ&s"
+    "imagen": "https://allieddigestivehealth.com/wp-content/uploads/2023/03/Distressed-woman-at-home-holding-her-stomach-and-suffering-from-internal-bleeding-stomach-symptoms.jpg"
   },
   "distention_of_abdomen": {
     "descripcion": "Aumento del tamaño del abdomen debido a la acumulación de gas, líquidos o masas, causando una apariencia hinchada.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYH9ikFSx7gMCjklmZbZCHfU_ovHuM2hDJ4A&s"
+    "imagen": "https://thumbs.dreamstime.com/b/prominent-abdominal-distension-southeast-asian-myanmar-man-left-lateral-view-distended-abdomen-may-be-due-to-ascites-183847466.jpg"
   },
   "history_of_alcohol_consumption": {
     "descripcion": "Consumo previo o actual de alcohol, que puede predisponer a varias enfermedades hepáticas, cardiovasculares y neurológicas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdf4tQ5tUqfHik1bBgiD4wTbHwlvJX2dQRyg&s"
+    "imagen": "https://img.europapress.es/fotoweb/fotonoticia_20150412091433_1200.jpg"
   },
   "blood_in_sputum": {
     "descripcion": "Presencia de sangre en el esputo, lo que puede ser un signo de infecciones respiratorias graves, cáncer de pulmón o enfermedades pulmonares crónicas.",

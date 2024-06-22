@@ -11,5 +11,5 @@ def     load_dataframe():
     # Instanciamos en una variable el dataset
     dataframe = pd.read_csv(dataframe_dir)
     # Limitar el DataFrame según la cantidad de registros
-    dataframe = dataframe.head(1500)
+    dataframe = dataframe.head(3000)
     return dataframe
