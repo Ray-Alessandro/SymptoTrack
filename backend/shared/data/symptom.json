@@ -25,7 +25,7 @@
   },
   "joint_pain": {
     "descripcion": "Dolor en las articulaciones del cuerpo.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCVmXeIhgenHPHcLG0MNKp0CspC38vURcCQ&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:aANd9GcRyCVmXeIhgenHPHcLG0MNKp0CspC38vURcCQ&s"
   },
   "stomach_pain": {
     "descripcion": "Dolor localizado en la zona abdominal.",
@@ -429,19 +429,19 @@
   },
   "mucoid_sputum": {
     "descripcion": "Esputo viscoso y pegajoso, a menudo producido en infecciones respiratorias o enfermedades pulmonares crónicas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC2qkDZgLVv6E6nJalGy-KToNVvTeNZ3g2rQ&s"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sputum.JPG"
   },
   "rusty_sputum": {
     "descripcion": "Esputo de color óxido, típicamente asociado con neumonía lobar y otras infecciones pulmonares graves.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVku6a-EveN6hE6F9kZLiYZwW4H8ytnbgpWg&s"
+    "imagen": "https://image.slidesharecdn.com/approachtocough-170131012943/85/Approach-to-cough-24-320.jpg"
   },
   "lack_of_concentration": {
     "descripcion": "Dificultad para mantener la atención o concentrarse en tareas, que puede ser un síntoma de varias condiciones, incluyendo TDAH, ansiedad, depresión y fatiga.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYB_jdT7M2Xb0J6F9HgQkXub8O4oaF6GTLQ&s"
+    "imagen": "https://e5hougg55fx.exactdn.com/wp-content/uploads/2020/07/lack-of-concentration-feature-image.jpg"
   },
   "visual_disturbances": {
     "descripcion": "Alteraciones en la visión, como visión borrosa, destellos de luz, manchas flotantes, que pueden indicar problemas oculares o neurológicos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGG3a-Jh7qI2lkzdhVP77E8A4FRJ0RDEzUNw&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr0SWJYAPlRo9ARIZhF7UBJ4MRA8nb4SN1Fw&s"
   },
   "receiving_blood_transfusion": {
     "descripcion": "Recepción de una transfusión de sangre, que puede estar asociada con riesgos de infecciones o reacciones transfusionales.",
@@ -469,58 +469,58 @@
   },
   "blood_in_sputum": {
     "descripcion": "Presencia de sangre en el esputo, lo que puede ser un signo de infecciones respiratorias graves, cáncer de pulmón o enfermedades pulmonares crónicas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmb-cExYlfEvEd32La70I7unRtjs8BDK7tA&s"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Raetchon_%C3%A5_sonk.jpg/228px-Raetchon_%C3%A5_sonk.jpg"
   },
   "prominent_veins_on_calf": {
     "descripcion": "Venas visibles y abultadas en la pantorrilla, que pueden ser un signo de venas varicosas o insuficiencia venosa crónica.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn3WesMCo0mRYOvnsgITZ8do5IsDtCikvGTg&s"
+    "imagen": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/varicose-veins-ulceration-of-the-skin-body6-1024x575.jpg"
   },
   "palpitations": {
     "descripcion": "Sensación de latidos cardíacos rápidos, fuertes o irregulares, que puede ser causado por estrés, ejercicio, consumo de estimulantes o problemas cardíacos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTmTZPrF5nsAFaSMLD6D6RpVgJQHUtW7H42g&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUk3GmwUJW1mDRwOI_7KfbbZddR3eeEYo-xg&s"
   },
   "painful_walking": {
     "descripcion": "Dolor o molestia al caminar, que puede ser causado por lesiones, problemas musculoesqueléticos, o condiciones neurológicas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10x3p6eTmb8KjUCIv7Ao8g3OCvZRpHvTqGg&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsXdXQzcX0jqhRtG9bJaiX-xrANQp_zzJYog&s"
   },
   "pus_filled_pimples": {
     "descripcion": "Granos o espinillas llenas de pus, típicamente asociadas con el acné severo o infecciones bacterianas de la piel.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHEah8LtEJumCFr8ZlGOxlcfJvQzeifXDpVw&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ob30FEmhECLXWlGcAVP7LTsN_690nnlgMQ&s"
   },
   "blackheads": {
     "descripcion": "Pequeños puntos negros en la piel, especialmente en la cara, causados por la obstrucción de los folículos pilosos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhSbbXADu8ytmnXOgx7rY8FDhU0UKsdvhlAg&s"
+    "imagen": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/03/11071-infected_blackhead-648x364-body.jpg?w=1155&h=764"
   },
   "scurring": {
     "descripcion": "Proceso de formación de cicatrices en la piel después de una lesión o inflamación.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TF0jZZ3t6uZasHbC5R9uo-fG4sykTh06Lg&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmUrwYMI5uA8kO0s4KYJzza5MzRw908ZNu7Q&s"
   },
   "skin_peeling": {
     "descripcion": "Desprendimiento de la capa superficial de la piel, a menudo como resultado de quemaduras, irritación o ciertas condiciones dermatológicas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLuN0DBmJKnyk2auL9apjclhDUSal7jsTXeQ&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThEOXzwXUTHv4W0C7PsKyskmTqpXj34vBskw&s"
   },
   "silver_like_dusting": {
     "descripcion": "Presencia de una capa o escamas plateadas en la piel, típicamente asociada con condiciones como la psoriasis.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRka3r2nQHlBFPqX2f_9zrZatC5CB4AGob8WA&s"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Argyria_2b.jpg"
   },
   "small_dents_in_nails": {
     "descripcion": "Pequeñas hendiduras o depresiones en la superficie de las uñas, que pueden ser un signo de problemas dermatológicos como la psoriasis.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkSbySgM-9aXregh29f6XY-EAhBz5zN8hMw&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSmx8TTRmsfVEaLiYdUspSxqi_DzAhxuu4UQ&s"
   },
   "inflammatory_nails": {
     "descripcion": "Inflamación de los tejidos alrededor de las uñas, a menudo debido a infecciones o traumatismos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7Bvm8t-JfpZ6kik1VudUFE1Huw6E__9uUQ&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2lxVwDqD_YWiCZFIDeETtOacYXCta5Q0dg&s"
   },
   "blister": {
     "descripcion": "Pequeña burbuja en la piel llena de líquido claro, a menudo causada por fricción, quemaduras o infecciones.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8CB_UEoPTkRdNBeSl8ABr5icQZa5TjQAWXQ&s"
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Blister.jpg/320px-Blister.jpg"
   },
   "red_sore_around_nose": {
     "descripcion": "Llaga roja alrededor de la nariz, que puede ser causada por infecciones, irritaciones o condiciones como el herpes labial.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGvW3pi5eDF7D8DBw7W4E7RhX2L7ugchHhrA&s"
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRSfJx1ebnjnlkpM2_LQt6Q0yjZeMEMGl6A&s"
   },
   "yellow_crust_ooze": {
     "descripcion": "Secreción de líquido amarillo que se seca formando una costra, comúnmente asociada con infecciones bacterianas de la piel como el impétigo.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sJzId1IfuEMTeCwOci_0mc3EYr_9uLZZfg&s"
+    "imagen": "https://cdn.shopify.com/s/files/1/2467/3849/files/tipo-de-exudado-seroso_240x240.jpg?v=1638840460"
   }
 }
